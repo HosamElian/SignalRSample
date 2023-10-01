@@ -3,7 +3,7 @@ var messageList = document.getElementById("messagesList");
 
 // create connection
 var connectionChat = new signalR.HubConnectionBuilder()
-    .withUrl("/hubs/chat")
+    .withUrl("/hubs/basicchat")
     .build();
 
 sendMessage.disable = true;
